@@ -1,0 +1,546 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /******* header-section *********/
+    .navbar-light .navbar-toggler {
+        margin-left: 140px;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff !important;
+        border-color: #fff !important;
+        background: #fff;
+        margin-left: 70px;
+    }
+    .header-section .col-md-6 {
+        width: 50%;
+    }
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link {
+        text-align: left;
+        padding-left: 0px;
+    }
+    /********* banner section ********/
+    .banner-section .banner-logo img {
+        margin-top: 96px;
+        padding-left: 20px;
+        height: 45px;
+    }
+    .banner-section .heading-underline h2 {
+        margin-top: 22px;
+        padding-left: 20px;
+    }
+    .banner-section .heading-underline img {
+        margin-top: 15px;
+        padding-left: 20px;
+    }
+    .banner-section p {
+        font-size: 15px;
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+    .banner-section .form .card {
+        width: 351px;
+        height: 368px;
+        margin: 0px 0px 9px 0px;
+    }
+    .banner-section .btn-primary {
+        padding: 8px 25px;
+        font-size: 14px;
+        margin: 24px 0px 64px 0px;
+    }
+    .banner-section .padd-left {
+        margin-left: 20px;
+    }
+    /********* brand-pannel section ********/
+    .brand-pannel .icons ul li {
+        padding: 6px 0px 4px 22px;
+        font-size: 30px;
+    }
+    /********* features-pannel-1 section ********/
+    .features-pannel-1 {
+        padding: 65px 0px;
+    }
+    .features-pannel-1 .tabs ul {
+        display: flex;
+        justify-content: center;
+    }
+    .features-pannel-1 .tabs ul li {
+        height: 95px;
+        width: 100px;
+        margin-top: 0px;
+        margin-left: 5px;
+        display: grid;
+        place-items: center;
+        font-size: 16px;
+    }
+    .features-pannel-1 .fp-content-1 {
+        text-align: center;
+    }
+    .features-pannel-1 .fp-content-1 p {
+        font-size: 13px;
+        margin: 20px 0px;
+    }
+    .features-pannel-1 .fp-img-1 {
+        margin-top: 58px;
+    }
+    /********* features-pannel-2 section ********/
+    .features-pannel-2 {
+        padding: 65px 0px 60px 0px;
+    }
+    .features-pannel-2 .fp-img {
+        text-align: center;
+        display: grid;
+    }
+    .features-pannel-2 .fp-img-2 img {
+        height: 223px;
+        width: 343px;
+    }
+    .features-pannel-2 .fp-content-2 {
+        padding-left: 20px;
+    }
+    .features-pannel-2 .fp-content-2 .fp-content-2-heading h2 {
+        padding-top: 20px;
+    }
+    .features-pannel-2 .fp-content-2 .t-center {
+        text-align: center;
+        display: grid;
+        place-items: center;
+    }
+    .features-pannel-2 .fp-content-2 .title-content {
+        padding-left: 0px;
+    }
+    .features-pannel-2 .fp-content-2 .para p {
+        font-size: 13px;
+    }
+    .features-pannel-2 .fp-content-2 .title-content h4 {
+        padding-top: 15px;
+    }
+    /********* features-pannel-3 section ********/
+    .features-pannel-3 {
+        padding: 45px 0px 47px 0px;
+    }
+    .features-pannel-3 .fp-content-3 {
+        padding-left: 20px;
+    }
+    .features-pannel-3 .fp-img-3 img {
+        height: 220px;
+        width: 335px;
+    }
+    .features-pannel-3 .fp-img-3 {
+        float: left;
+        margin-right: 0px;
+    }
+    /********* process-pannel section ********/
+    .process-pannel {
+        padding: 60px 0px;
+    }
+    .process-pannel .process-pannel-heading h2 {
+        font-size: 27px;
+    }
+    .process-pannel .pannel-item {
+        margin-top: 27px;
+    }
+    /********* price section ********/
+    .price-section {
+        padding: 60px 0px 40px 0px;
+    }
+    .price-section .price-section-heading h2 {
+        font-size: 27px;
+    }
+    .price-section .price-section-heading p {
+        margin: 12px 0px 55px 0px;
+    }
+    .price-section .card {
+        margin-bottom: 30px;
+    }
+    .price-section .middle-card {
+        margin-top: 0px;
+    }
+    /********* testimonial section ********/
+    .testimonial-section {
+        padding: 60px 0px;
+    }
+    .testimonial-section .testimonial-section-heading h2 {
+        font-size: 27px;
+        letter-spacing: 1px;
+    }
+    /********* custom section ********/
+    .custom-section .custom-section-heading .btn-primary {
+        padding: 7px 21px;
+        font-size: 13px;
+    }
+    /********* contact section ********/
+    .contact-section {
+        padding: 60px 0px;
+    }
+    .contact-section .form {
+        margin: 8px 13px 0px 0px;
+    }
+    .contact-section .form .message {
+        height: 125px;
+        padding-left: 0px;
+        margin: 20px 0px 0px 9px;
+    }
+    .contact-section .button .btn-primary {
+        padding: 7px 12px;
+        font-size: 13px;
+    }
+    /********* footer section ********/
+    .footer-section .icons li a {
+        font-size: 22px;
+        margin: 0px 12px 10px;
+    }
+    .footer-section p {
+        font-size: 13px;
+    }
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /******* header-section *********/
+    .navbar-light .navbar-toggler {
+        margin-left: 140px;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff !important;
+        border-color: #fff !important;
+        background: #fff;
+        margin-left: 135px;
+    }
+    .header-section .col-md-6 {
+        width: 50%;
+    }
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link {
+        text-align: left;
+        padding-left: 0px;
+    }
+    /********* banner section ********/
+    .banner-section .banner-logo img {
+        margin-top: 105px;
+        padding-left: 20px;
+        height: 47px;
+    }
+    .banner-section .heading-underline h2 {
+        margin-top: 22px;
+        padding-left: 20px;
+    }
+    .banner-section .heading-underline img {
+        margin-top: 15px;
+        padding-left: 20px;
+    }
+    .banner-section p {
+        font-size: 15px;
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+    .banner-section .form .card {
+        width: 351px;
+        height: 368px;
+        margin: 0px 0px 9px 70px;
+    }
+    .banner-section .btn-primary {
+        padding: 8px 25px;
+        font-size: 14px;
+        margin: 24px 0px 110px 0px;
+    }
+    .banner-section .padd-left {
+        margin-left: 20px;
+    }
+    /********* brand-pannel section ********/
+    .brand-pannel .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .brand-pannel .icons ul li {
+        padding: 5px 0px 8px 30px;
+        font-size: 40px;
+    }
+    /********* features-pannel-1 section ********/
+    .features-pannel-1 {
+        padding: 65px 0px;
+    }
+    .features-pannel-1 .tabs ul {
+        display: flex;
+        justify-content: center;
+    }
+    .features-pannel-1 .tabs ul li {
+        height: 95px;
+        width: 100px;
+        margin-top: 0px;
+        margin-left: 5px;
+        display: grid;
+        place-items: center;
+        font-size: 16px;
+    }
+    .features-pannel-1 .fp-content-1 {
+        text-align: center;
+    }
+    .features-pannel-1 .fp-content-1 p {
+        font-size: 13px;
+        margin: 20px 0px;
+    }
+    .features-pannel-1 .fp-img-1 {
+        margin-top: 58px;
+        text-align: center;
+    }
+    /********* features-pannel-2 section ********/
+    .features-pannel-2 {
+        padding: 65px 0px 60px 0px;
+    }
+    .features-pannel-2 .fp-img {
+        text-align: center;
+        display: grid;
+    }
+    .features-pannel-2 .fp-img-2 img {
+        height: 272px;
+        width: 422px;
+    }
+    .features-pannel-2 .fp-content-2 {
+        padding-left: 20px;
+    }
+    .features-pannel-2 .fp-content-2 .fp-content-2-heading h2 {
+        padding-top: 20px;
+    }
+    .features-pannel-2 .fp-content-2 .title-content {
+        padding-left: 20px;
+    }
+    .features-pannel-2 .fp-content-2 .para p {
+        font-size: 13px;
+    }
+    .features-pannel-2 .fp-content-2 .title-content h4 {
+        padding-top: 0px;
+    }
+    /********* features-pannel-3 section ********/
+    .features-pannel-3 {
+        padding: 45px 0px 47px 0px;
+    }
+    .features-pannel-3 .fp-content-3 {
+        padding-left: 20px;
+    }
+    .features-pannel-3 .fp-i {
+        text-align: center;
+        display: grid;
+    }
+    .features-pannel-3 .fp-img-3 img {
+        height: 255px;
+        width: 403px;
+    }
+    .features-pannel-3 .fp-img-3 {
+        float: left;
+        margin-right: 0px;
+    }
+    /********* process-pannel section ********/
+    .process-pannel {
+        padding: 60px 0px;
+    }
+    .process-pannel .process-pannel-heading h2 {
+        font-size: 27px;
+    }
+    .process-pannel .pannel-item {
+        margin-top: 27px;
+    }
+    /********* price section ********/
+    .price-section {
+        padding: 60px 0px 40px 0px;
+    }
+    .price-section .col-md-4 {
+        display: grid;
+        place-items: center;
+    }
+    .price-section .price-section-heading h2 {
+        font-size: 27px;
+    }
+    .price-section .price-section-heading p {
+        margin: 12px 0px 55px 0px;
+    }
+    .price-section .card {
+        margin-bottom: 30px;
+    }
+    .price-section .middle-card {
+        margin-top: 0px;
+    }
+    /********* testimonial section ********/
+    .testimonial-section {
+        padding: 60px 0px;
+    }
+    .testimonial-section .testimonial-section-heading h2 {
+        font-size: 27px;
+        letter-spacing: 1px;
+    }
+    /********* custom section ********/
+    .custom-section .custom-section-heading .btn-primary {
+        padding: 7px 21px;
+        font-size: 13px;
+    }
+    /********* contact section ********/
+    .contact-section {
+        padding: 60px 0px;
+    }
+    .contact-section .form {
+        margin: 8px 13px 0px 0px;
+    }
+    .contact-section .form .message {
+        height: 125px;
+        padding-left: 0px;
+        margin: 20px 0px 0px 9px;
+    }
+    .contact-section .button .btn-primary {
+        padding: 7px 12px;
+        font-size: 13px;
+    }
+    /********* footer section ********/
+    .footer-section .icons li a {
+        font-size: 22px;
+        margin: 0px 12px 10px;
+    }
+    .footer-section p {
+        font-size: 13px;
+    }
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /******* header-section *********/
+    .navbar-light .navbar-toggler {
+        margin-left: 140px;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff !important;
+        border-color: #fff !important;
+        background: #fff;
+        margin-left: 260px;
+    }
+    .header-section .col-md-6 {
+        width: 50%;
+    }
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link {
+        text-align: left;
+        padding-left: 0px;
+    }
+    /******* banner-section *********/
+    .banner-section .banner-logo img {
+        margin-top: 110px;
+    }
+    .banner-section .form .card {
+        width: 324px;
+        height: 367px;
+        margin: 156px 0px 8px 11px;
+    }
+    .banner-section .btn-primary {
+        margin: 25px 0px 100px 0px;
+    }
+    /******* brand-pannel section *********/
+    .brand-pannel .icons ul li {
+        padding: 31px 0px 0px 30px;
+        font-size: 32px;
+    }
+    /******* features-pannel-1 section *********/
+    .features-pannel-1 .tabs ul li {
+        height: 95px;
+        width: 95px;
+        font-size: 15px;
+    }
+    .features-pannel-1 .fp-img-1 img {
+        height: 200px;
+        width: 232px;
+    }
+    /********* features-pannel-2 section ********/
+    .features-pannel-2 .fp-content-2 {
+        padding-left: 30px;
+    }
+    .features-pannel-2 .fp-content-2 .para p {
+        width: 100%;
+    }
+    .features-pannel-2 .fp-content-2 .title-content {
+        padding-left: 20px;
+    }
+    .features-pannel-2 .fp-content-2 .title-content h4 {
+        padding-top: 0px;
+    }
+    .features-pannel-2 .fp-img-2 img {
+        height: 262px;
+        width: 362px;
+    }
+    /********* features-pannel-3 section ********/
+    .features-pannel-3 .fp-img-3 {
+        margin-right: -37px;
+    }
+    .features-pannel-3 .fp-img-3 img {
+        height: 262px;
+        width: 362px;
+    }
+    /********* process-pannel section ********/
+    .process-pannel .pannel-item .pannel-content p {
+        width: 98%;
+    }
+    /******* price section *********/
+    .price-section .card {
+        width: 232px;
+    }
+    .price-section .card .list-group .up {
+        line-height: 6px;
+        font-size: 13px;
+    }
+    /******* testimonial section *********/
+    .testimonial-section .testimonial-img img {
+        height: 200px;
+        width: 232px;
+    }
+}
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /******* banner-section *********/
+    .banner-section .form .card {
+        width: 331px;
+        height: 367px;
+        margin: 156px 0px 8px 90px;
+    }
+    /******* brand-pannel section *********/
+    .brand-pannel .icons ul li {
+        padding: 20px 0px 0px 45px;
+        font-size: 38px;
+    }
+    /********* features-pannel-2 section ********/
+    .features-pannel-2 .fp-content-2 {
+        padding-left: 94px;
+    }
+    .features-pannel-2 .fp-content-2 .title-content {
+        padding-left: 20px;
+    }
+    .features-pannel-2 .fp-content-2 .title-content h4 {
+        padding-top: 0px;
+    }
+    /******* price section *********/
+    .price-section .card {
+        width: 302px;
+    }
+    .price-section .card .list-group .up {
+        line-height: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1024px) {
+    .header-section .main-menu .navbar-light .navbar-nav .nav-link {
+        padding-left: 20px;
+    }
+}
